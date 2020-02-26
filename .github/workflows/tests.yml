@@ -12,8 +12,7 @@ jobs:
         platform:
           - ubuntu-latest
           - macos-latest
-          - windows-2016
-          # - windows-latest  # broken on github?
+          - windows-latest
         python-version: [3.5, 3.6, 3.7, 3.8]
 
     steps:
